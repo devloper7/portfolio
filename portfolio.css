@@ -1,0 +1,228 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    height: 500px;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 0%;
+    background-image: url("WhatsApp\ Image\ 2024-12-14\ at\ 8.36.16\ PM.jpeg");
+    /* background-color: rgb(65, 65, 65); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 5%;
+    /* justify-content:space-between ; */
+}
+.nav ul{
+    background-color: gray;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin: 0%;
+    padding-top: 2%;
+}
+.nav ul li{
+    cursor: pointer;
+    width: 20%;
+    height: 80%;
+    padding: 0% 2%;
+}
+.photo{
+    height: 80%;
+    /* margin-left: 5%; */
+    /* border: 2px solid red; */
+    margin-top: 7%;
+    /* background-color: aqua; */
+    width: 35%;
+    object-fit: cover;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    object-fit: cover;
+}
+.name{
+    /* border: 2px solid blue; */
+    height: 80%;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 15vh;
+    /* background-color: beige; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 4vh;
+    line-height: 8vh;
+    color: white;
+    padding-left: 20px;
+    font-family: "Playfair Display", serif;
+    overflow-y: auto;
+
+}
+.name h1{
+    width: 100%;
+    margin-bottom: 6vh;
+    font-size: 7vh;
+    color: orange;
+    font-family: "Oswald", sans-serif;
+}
+.skills{
+    /* background-color: bisque; */
+    background-image: url("WhatsApp\ Image\ 2024-12-14\ at\ 10.19.08\ PM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 300px; */
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-top: 2%;
+    padding-bottom: 4vh;
+    color: white;
+      
+}
+.skills h1{
+    font-size: 15vh;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.nav i{
+    height: 1000px;
+}
+.skills h3{
+    font-size: 7vw;
+    font-family: "Oswald", sans-serif;
+}
+.skills p{
+    line-height: 8vh;
+    font-size: 6vh;
+    /* word-spacing: 4vh; */
+    margin-top: 4vh;
+    font-family: "Playfair Display", serif;
+    text-wrap: wrap;
+}
+.skill-list{
+    /* border: 2px solid blue; */
+    margin-top: 4vh;
+    border-radius: 25px;
+    border: 2px solid gray;
+    padding: 4%;
+    width: 40%;
+    background-color: rgb(59, 59, 59);
+}
+.all-skill{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.description{
+    background-color: rgb(20, 241, 241);
+    /* height: 70vh; */
+}
+.description h2{
+    font-size: 40px;
+    margin-bottom: 6vh;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Oswald", sans-serif;
+    
+}
+.description p{
+    font-size: 30px;
+    line-height: 50px;
+    font-family: "Playfair Display", serif;
+    padding: 2% 5%;
+    word-spacing: 1vw;
+
+}
+.education{
+    background-color: rgb(108, 165, 167);
+    padding-bottom: 2vh;
+    padding-top: 2vh ;
+}
+.education table{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 40vh;
+    margin-top: 6vh;
+    font-size: 6vh;
+}
+.education h3{
+    text-align: center;
+    font-size: 9vh;
+    margin-top: 6vh;
+}
+.interests{
+    /* margin-top: 6vh; */
+    background-color: cornsilk;
+}
+.interests h2{
+    font-size: 8vh;
+    text-align: center;
+}
+.interests ul{
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 6vh;
+    list-style-type: circle;
+}
+.interests i{
+    margin-right: 4vh;
+}
+hr{
+    height: 4vh;
+}
+.contact{
+    background-color: rgb(225, 151, 40);
+}
+.contact h3{
+    font-size: 8vh;
+    text-align: center;
+}
+.contact p{
+    color: rgb(74, 74, 74);
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 5vh;
+}
+.form{
+    width: 100%;
+    text-align: center;
+    margin-top: 6vh;
+    
+}
+.form input{
+    /* size: 8vh; */
+    height: 8vh;
+    border-radius: 8px;
+}
+.form input[type="tel"]{
+    margin-left: 1vh ;
+}
+.form input{
+    margin-left: 5vh;
+}
+#button{
+    width: 20%;
+    background-color: red;
+    margin-left: 6vh;
+    height: 6vh;
+    border-radius: 8px;
+}
+.footer{
+    display: flex;
+    background-color: gray;
+    /* justify-content: space-around; */
+}
